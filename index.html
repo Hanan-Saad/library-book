@@ -1,0 +1,182 @@
+﻿
+<html>
+ 
+ <Head>
+
+
+<title>Library Stories</title>
+
+	
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css\bootstrap.css" rel="stylesheet">
+       <link href="css\ssheet.css" rel="stylesheet">
+    <!--Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Belgrano|Courgette&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+ <!--Bootshape-->
+    <link href="css/bootshape.css" rel="stylesheet">
+    
+</Head>
+<body>
+
+<!-- Navigation bar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">the list</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Library Stories</a>
+        </div>
+        <nav role="navigation" class="collapse navbar-collapse navbar-right">
+          <ul class="navbar-nav nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class="dropdown">
+              <a data-toggle="dropdown" href="#" class="dropdown-toggle">List Stories <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+
+                <li class="active"><a href="Islamic.html">Mystery novels</a></li>
+                <li><a href="Social.html"> Fantasy novels </a></li>
+                <li><a href="romance.html">Romance novels </a></li>
+              </ul>
+            </li>
+			
+            <li><a href="about.html">About</a></li>
+            <li><a href="register.php" id="myBtn" >Register</a></li>
+			 <li><a href="main_login.php" id="myBtn" >Log in</a></li>
+            <li><a href="Contact-us.php" id="myBtn">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+	<br>
+  
+ <div class="container" >
+      <div class="">
+        <marquee width="1300" height="50" hspace="40" vspace="40" align="left"  DIRECTION="RIGHT" behavior="side" >
+
+<h2>Welcome To Website Library Stories .. We Hope You Like It.</h1>
+
+</marquee>
+       
+      </div>
+	  </div>
+	   <!-- Thumbnails -->
+    <div class="container thumbs">
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="Img\Spying on Gran.jpg" alt="" class="img-responsive">
+          <div class="caption">
+            <h3 class="">Spying on Gran</h3>
+            <p>
+Gran has cats. Uncle Cawley spends his days reading newspapers. Life is boring for Boneh. Until one day, when Gran and Uncle Cawley start acting strange....            <div class="btn-toolbar text-center">
+              <a href="part32.html" role="button" class="btn btn-primary pull-right">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+	  
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="Img\The Prisoner of Zenda.jpg " width = "50%"  alt="" class="img-responsive">
+          <div class="caption">
+            <h3 class="">The Prisoner of Zenda</h3>
+            <p>
+The Prisoner of Zenda is an adventure novel by Anthony Hope... 
+ <div class="btn-toolbar text-center">
+              <a href="part33.html" role="button" class="btn btn-primary pull-right">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="Img\A-Good-Man-icon.jpg"  width = "47%" alt="" class="img-responsive">
+          <div class="caption">
+            <h3 class="">A Good Man</h3>
+            <p>
+Maggie used to have a job, a car and a life. Now she has stray cats and her faith. With no hope ....
+. <div class="btn-toolbar text-center">
+              <a href="part3.html" role="button" class="btn btn-primary pull-right">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Thumbnails -->
+	 
+	  <!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <!-- Send Message-->
+  <div class="modal-content">
+    <span class="close">x</span>
+            <form role="form">
+              	<div class="templatemo_form" >
+                	<input name="fullname" type="text" class="form-control" id="fullname" placeholder="fullname" maxlength="40">
+              	</div>
+              	<div class="templatemo_form">
+                	<input name="email" type="text" class="form-control" id="email" placeholder="email" maxlength="40">
+              	</div>
+               	<div class="templatemo_form">
+                	<input name="subject" type="text" class="form-control" id="subject" placeholder="subject" maxlength="40">
+              	</div>
+              	<div class="templatemo_form">
+	            	<textarea name="message" rows="10" class="form-control" id="message" placeholder="message"></textarea>
+              	</div>
+              	<div class="templatemo_form" ><a href="sama-1199@hotmail.com"><button  type="button" class="btn btn-primary">Send</button></a>
+				</div>
+            </form>
+  </div> 
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+ 
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+
+}
+</script>
+ <div class="footer text-center" style="background-color:gray">
+        <p><a href="#" style="color:white">Mnal</a>  Copyright © 2016 All Rights Reserved </p>
+    </div><!-- End Footer -->
+
+  <script src="js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootshape.js"></script>
+	<script src="js/bootstrape.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+	
+ </body>
+
+<!--   <frameset rows="250,*,70">
+ <frame src="hedar.html" noresize  scrolling="no" frameborder="0" />
+ <frame src="content.html" name="center" noresize scrolling="yes" frameborder="0" />
+       <frame src="footer.html" noresize scrolling="no" frameborder="0" />     
+   </frameset>   --> 
+</html>
